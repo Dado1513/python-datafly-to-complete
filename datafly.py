@@ -228,7 +228,7 @@ class _Table:
                         qi_frequency[new_qi_sequence] = qi_frequency.pop(qi_sequence)
 
                     # Update domain set with this attribute value:
-                    domains[attribute_idx].add(qi_sequence[attribute_idx])
+                    domains[attribute_idx].add(new_qi_sequence[attribute_idx])
 
                 self._log('', endl=True, enabled=v)
 
